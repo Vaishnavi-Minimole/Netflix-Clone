@@ -19,9 +19,9 @@ function Banner({ fetchurl }) {    //data destructing
   }
   // useEffect()
   useEffect(() => {
-    // setInterval(() => {
-    //   fetchData()
-    // }, 5000)
+    setInterval(() => {
+      fetchData()
+    }, 5000)
     fetchData()
   }, [])
   // console.log(movies);
