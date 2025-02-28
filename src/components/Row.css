@@ -1,0 +1,27 @@
+.row{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.movie_row{
+    display: flex;
+    /* to enable horizontal scrolling we use overflow-x */
+    overflow-x: scroll;
+}
+
+.movies{
+    width: 100%;
+    object-fit: contain;
+    height: 200px;
+    margin-right: 10px;
+    transition: 200ms;
+}
+
+.movies:hover{
+    transform: scale(1.1);
+}
+
+::-webkit-scrollbar{  
+    display: none;
+    /* while scrolling horizontally, the scroll bar will be hidden */
+}
